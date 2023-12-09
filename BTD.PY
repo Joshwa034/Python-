@@ -7,10 +7,11 @@ def bintodec(inputBits):
         for i in range(0, len(a), 4):
             temp=a[i:i+4]
             btd_val = int(temp,2)
-            p = lst[btd_val]
+            p = lst[btd_val]         
             if p in ["+", "-", "*","/"]:
                 print()
                 print(p)
             else:
                 print(p,end="")
+
 bintodec("10010100101000100000")
