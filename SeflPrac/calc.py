@@ -3,8 +3,6 @@ ls = qes.split()
 
 opls = ["+", "-", "*", "/", "%"]
 
-
-
 try:
     if(int(ls[0]).isdigit and ls[2]!= "0"  ):
         if(ls[1] == opls[0]):
